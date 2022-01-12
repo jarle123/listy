@@ -1,0 +1,153 @@
+// Define colors start
+// ********************
+$color-element-hover: rgb(16, 79, 214);
+$element-border-radius: 9px;
+$btn-edit-li: rgb(199, 199, 199);
+$btn-remove-li: red;
+$text-color-main: rgb(230, 214, 214);
+
+// End define colors
+//------------------
+
+
+.app {
+  text-align: center;
+  font-size: 18px;
+  min-height: 100vh;
+  background-color: #282c34;
+  color: $text-color-main;
+  display: flex;
+  flex-direction: column;
+}
+
+#app-header {
+  background-color: #282c34;
+  color: $text-color-main;
+}
+
+// Main navigation start
+// *********************
+#main-navigation {
+  border: 3px solid #7b5151;
+  color: $text-color-main;
+
+  a {
+    border-radius: $element-border-radius;
+    color: $text-color-main;
+    text-decoration: none;
+    padding: 18px;
+  }
+
+  a:hover {
+    background-color: $color-element-hover;
+    cursor: pointer;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  li {
+    list-style-type: none;
+    display: inline-block;
+  }
+}
+
+// Main navigation end
+// -------------------
+
+// Start listy style
+// ******************
+#div-list,
+.div-list {
+  border: 1px solid #7b5151;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: left;
+  font-size: 25px;
+  max-width: 700px;
+  margin: 20px;
+
+  input,
+  button {
+    color: $text-color-main;
+    font-size: 20px;
+    background-color: #282c34;
+    border: none;
+  }
+
+  .listy-header p {
+    display: inline-block;
+  }
+
+  .input-add-list-item {
+    margin: 2px;
+    padding: 5px;
+    width: 90%;
+  }
+
+// End listy style
+// --------------------
+
+// Start List item stuff
+// *********************
+
+  // Base button style and hover
+  .btn,
+  .btn-add-list-item,
+  .btn-remove-li {
+    float: right;
+    padding: 0;
+    height: 33px;
+    width: 33px;
+  }
+
+  .btn:hover,
+  .btn-add-list-item:hover,
+  .btn-remove-li:hover {
+    cursor: pointer;
+    border: 1px solid;
+
+    img {
+      filter: invert(43%) sepia(4%) saturate(3312%) hue-rotate(314deg)
+        brightness(82%) contrast(98%);
+    }
+  }
+
+  .btn-edit-li:hover {
+    color: $btn-edit-li;
+    border-color: $btn-edit-li;
+  }
+
+  .btn-remove-li:hover {
+    color: $btn-remove-li;
+    border-color: $btn-remove-li;
+  }
+  .img-add-list-item,
+  .img-edit-li,
+  .img-remove-li,
+  .img-delete-listy,
+  .img-edit-listy,
+  .img-settings-listy,
+  .icon-listy {
+    height: 33px;
+    width: 33px;
+    filter: invert(100%);
+  }
+}
+
+#ul-thingy {
+  list-style-type: none;
+
+  li:hover {
+    background-color: $color-element-hover;
+    cursor: pointer;
+  }
+}
+
+#footer {
+  // bottom: 0;
+  // position: absolute;
+}
