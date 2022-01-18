@@ -18,11 +18,7 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
- 
 
-
-<!-- PROJECT LOGO -->
-<br />
 <div align="center">
  
 <h3 align="center">Listy</h3>
@@ -31,37 +27,9 @@
 
 
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
-
-
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-Personal learning project focusing on React and .Net 
+Personal learning project focusing on React and .NET
 
 
 ### Built With
@@ -80,6 +48,7 @@ Personal learning project focusing on React and .Net
 
 Software required for project
 * npm
+* Visual Studio
 * .NET 5.0
 * EF Core command-line tools 
 
@@ -103,13 +72,13 @@ Software required for project
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-1. Start backend Visual studio(from \listy\listy-backend\)
+1. Start backend from Visual studio, IIS Express profile (from \listy\listy-backend\)
 
 2. Start frontend (from \listy\listy-frontend)
    ```sh
    npm start
    ```
-
+3. Add or remove items to lists.
 
 
 
@@ -119,7 +88,7 @@ Software required for project
 - [Feature]  Add notifications
 - [Feature]  Add boards / pages
 - [Feature]  Add login
-  [Error] Exception handling for requests
+- [Error] Exception handling for requests
 
 
 
@@ -127,7 +96,7 @@ Software required for project
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* [](Readme template from https://raw.githubusercontent.com/othneildrew/Best-README-Template/master/BLANK_README.md )
+* Readme template from https://raw.githubusercontent.com/othneildrew/Best-README-Template/master/BLANK_README.md 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 

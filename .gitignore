@@ -5,3 +5,6 @@
 /.vs/listy/config/applicationhost.config
 /listy-backend/.vs/listy
 /.vs
+/listy-backend/listy/bin/Debug/net5.0
+/listy-backend/listy/obj
+/listy-backend/listy/Migrations
