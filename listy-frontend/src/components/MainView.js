@@ -18,6 +18,8 @@ class MainView extends Component {
                 listys: response.data,
             });
             console.log("Response: ", response.data);
+        }).catch(error =>{
+          console.log(`Error fetching ${apiUrl}ListyLists`)
         });
     }
 

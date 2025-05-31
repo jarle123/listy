@@ -16,11 +16,16 @@ class App extends Component {
     }
 
     componentDidMount() {
-        axios.get(apiUrl + "ListyLists").then((response) => {
-            this.setState({
-                listys: response.data,
+        axios
+            .get(apiUrl + "ListyLists")
+            .then((response) => {
+                this.setState({
+                    listys: response.data,
+                });
+            })
+            .catch((error) => {
+                console.log(`Error fetching from ${apiUrl}ListyLists `);
             });
-        });
     }
 
     render() {
